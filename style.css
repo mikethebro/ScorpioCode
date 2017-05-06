@@ -1,7 +1,7 @@
 body
 {
 	background-color: red;
-	font-family: algerian;
+	font-family: algerian; /* doesn't work */
 }
 
 h1.title
@@ -10,12 +10,7 @@ h1.title
 	: center;
 }
 
-p.bluetext
+p.email
 {
 	color: blue;
-}
-
-#bro
-{
-	color: yellow;
 }
