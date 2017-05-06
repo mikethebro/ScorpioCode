@@ -4,6 +4,11 @@ body
 	font-family: algerian; /* doesn't work */
 }
 
+header
+{
+
+}
+
 h1.title
 {
 	font-size: 56px;
@@ -21,6 +26,7 @@ p.email
 img.logo
 {
 	padding-left: 30%;
+	width: 40%;
 	padding-right: 30%;
 }
 
