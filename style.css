@@ -6,7 +6,9 @@ body
 
 header
 {
-
+	position: fixed;
+	width: 100%;
+	top: 0px;
 }
 
 h1.title
@@ -25,6 +27,7 @@ p.email
 
 img.logo
 {
+	padding-top: 5%;
 	padding-left: 30%;
 	width: 40%;
 	padding-right: 30%;
