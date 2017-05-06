@@ -1,0 +1,21 @@
+body
+{
+	background-color: red;
+	font-family: algerian;
+}
+
+h1.title
+{
+	font-size: 36px;
+	: center;
+}
+
+p.bluetext
+{
+	color: blue;
+}
+
+#bro
+{
+	color: yellow;
+}
