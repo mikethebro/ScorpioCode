@@ -1,16 +1,32 @@
 body
 {
-	background-color: red;
+	background-color: #265B6A;
 	font-family: algerian; /* doesn't work */
 }
 
 h1.title
 {
-	font-size: 36px;
-	: center;
+	font-size: 56px;
+	text-align: center;
+	color: #D4A06A;
 }
 
 p.email
 {
 	color: blue;
+	text-align: center;
+	color: #D4A06A;
+}
+
+img.logo
+{
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+footer
+{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
 }
