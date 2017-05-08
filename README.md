@@ -5,6 +5,7 @@ Website for Scorpio Code
 ### Home
 
 Company logo?
+logo
 
 ### Our Team  
 Mike Ward, Project Manager and Co-founder  
