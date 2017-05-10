@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: "Lobster";
-    src: url("assets/fonts/lobster.otf") format("truetype");
+    src: url("../fonts/lobster.otf") format("truetype");
 }
 
 .lobsterfont
@@ -12,7 +12,7 @@
 body
 {
 	/*background-color: #265B6A;*/
-	background-image: url("img/background-crop.jpg");
+	background-image: url("../../img/background-crop.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*-webkit-background-size: cover;
