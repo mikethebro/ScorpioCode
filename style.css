@@ -1,7 +1,89 @@
+@font-face
+{
+    font-family: "Lobster";
+    src: url("assets/fonts/lobster.otf") format("truetype");
+}
+
+.lobsterfont
+{
+    font-family: "Lobster", Verdana, Tahoma;
+}
+
 body
 {
-	background-color: #265B6A;
-	font-family: algerian; /* doesn't work */
+	/*background-color: #265B6A;*/
+	background-image: url("img/background-crop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	/*font-family: algerian;  doesn't work */
+}
+
+ul.newnav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.newnav
+{
+    float: left;
+}
+
+li.newnav a.newnav
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.newnav:hover:not(.active)
+{
+    background-color: #111;
+}
+
+.active
+{
+	background-color:#4CAF50;
+}
+
+div.center
+{
+	padding-top: 20%;
+	text-align: center;
+}
+
+div.box
+{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.goldcolor
+{
+	color: #D4A06A;
+}
+
+.redcolor
+{
+	color: #ff0000;
+}
+
+p.block1
+{
+
+}
+
+p.block2
+{
+	padding-top: 5%;
 }
 
 header
@@ -23,41 +105,178 @@ ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /*background-color: #333;*/
+    display: inline-block;
 }
 
-li
+li.navbar
 {
-    float: left;
+	display: inline;
+	float: left;
+	margin-left: 11%;
+	margin-top: 25px;
+	width: 10%;
+	text-align: center;
+}
+
+li.button1
+{
+	width: 1%;
+}
+
+a.navbar, button.navbar
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+	height: 100px;
+	width: 80%;
+	border: 4px white inset;
+	border-radius: 100%;
+	font-size: 100%;
+	background-color: #D4A06A;
+    color: #265B6A;
+}
+
+a.navbar:hover, button.navbar:hover
+{
+	border: 4px white outset;
+	background-color: #265B6A;
+	color: #D4A06A;
+}
+
+
+li.link1
+{
+	padding-top: 2%;
+	padding-left: 11%;
+	width: 100%;
+}
+
+a.link1test
+{
+	padding-top: 100%;
+	padding-left: 11%;
+	width: 20%;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #D4A06A;
+    color: #265B6A;
+}
+
+div.link1test
+{
+	padding-left: 11%;
+	width: 20%;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #D4A06A;
+    color: #265B6A;
+}
+
+a.link2test
+{
+	padding-top: 100%;
+	padding-left: 33%;
+	width: 20%;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #D4A06A;
+    color: #265B6A;
+}
+
+.centermain
+{
+    margin-top: 17%;
+    width: 100%;
+}
+
+div.link2test
+{
+	padding-left: 33%;
+	width: 20%;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #D4A06A;
+    color: #265B6A;
+}
+
+a.link1
+{
+	width: 20%;	
+}
+
+li.link2
+{
+	padding-left: 33%;
+	width: 11%;
+}
+
+a.link2
+{
+
+}
+
+li.link3
+{
+	padding-left: 55%;
+	width: 11%;
+}
+
+a.link3
+{
+
+}
+
+li.link4
+{
+	padding-left: 77%;
+	width: 11%;
+}
+
+a.link4
+{
+
 }
 
 li a
 {
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #D4A06A;
+    color: #265B6A;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover
 {
-    background-color: #111;
+    /*background-color: #111;*/
+    background-color: #265B6A;
+    color: white;
+    /*color: white;*/
 }
 
 h1.title
 {
-	font-size: 56px;
+	font-size: 84px;
 	text-align: center;
-	color: #D4A06A;
 }
 
 p.email
 {
-	color: blue;
 	text-align: center;
-	color: #D4A06A;
 }
 
 img.logo
