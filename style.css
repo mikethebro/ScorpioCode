@@ -1,3 +1,14 @@
+@font-face
+{
+    font-family: "Lobster";
+    src: url("assets/fonts/lobster.otf") format("truetype");
+}
+
+.lobsterfont
+{
+    font-family: "Lobster", Verdana, Tahoma;
+}
+
 body
 {
 	/*background-color: #265B6A;*/
@@ -8,7 +19,40 @@ body
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;*/
-	font-family: algerian; /* doesn't work */
+	/*font-family: algerian;  doesn't work */
+}
+
+ul.newnav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.newnav
+{
+    float: left;
+}
+
+li.newnav a.newnav
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.newnav:hover:not(.active)
+{
+    background-color: #111;
+}
+
+.active
+{
+	background-color:#4CAF50;
 }
 
 div.center
@@ -69,10 +113,15 @@ li.navbar
 {
 	display: inline;
 	float: left;
-	margin-left: 75px;
+	margin-left: 11%;
 	margin-top: 25px;
-	margin-right: 75px;
+	width: 10%;
 	text-align: center;
+}
+
+li.button1
+{
+	width: 1%;
 }
 
 a.navbar, button.navbar
@@ -83,7 +132,7 @@ a.navbar, button.navbar
 	padding-bottom: 5px;
 	display: block;
 	height: 100px;
-	width: 100px;
+	width: 80%;
 	border: 4px white inset;
 	border-radius: 100%;
 	font-size: 100%;
@@ -142,6 +191,12 @@ a.link2test
     text-decoration: none;
     background-color: #D4A06A;
     color: #265B6A;
+}
+
+.centermain
+{
+    margin-top: 17%;
+    width: 100%;
 }
 
 div.link2test
@@ -215,7 +270,7 @@ li a:hover
 
 h1.title
 {
-	font-size: 56px;
+	font-size: 84px;
 	text-align: center;
 }
 
