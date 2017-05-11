@@ -21,7 +21,7 @@ body
 	/*font-family: algerian;  doesn't work */
 }
 
-@media (min-width: 600px)
+@media (min-width: @screen-md-min)
 {
 	body
 	{
@@ -29,7 +29,7 @@ body
 	}
 }
 
-@media (max-width: 600px)
+@media (max-width: @screen-sm-max)
 {
 	body
 	{
