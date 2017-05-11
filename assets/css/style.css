@@ -9,35 +9,44 @@
     font-family: "Lobster", Verdana, Tahoma;
 }
 
+/*small phones*/
 @media (max-width: 767px)
 {
 	body
 	{
-		background-image: url("../../img/background-mobile.jpg");
+		background-color: white;
+		/*background-image: url("../../img/background-mobile.jpg");*/
 	}
 }
 
+/*large phones and tablets*/
 @media (min-width: 768px) and (max-width: 991px)
 {
 	body
 	{
-		background-image: url("../../img/background-mobile.jpg");
+		background-color: red;
+		/*background-image: url("../../img/background-mobile.jpg");*/
 	}
 }
 
+/* small desktops */
 @media (min-width: 992px) and (max-width: 1199px)
 {
 	body
 	{
-		background-image: url("../../img/background-crop.jpg");
+		background-color: green;
+		/*background-image: url("../../img/background-crop.jpg");*/
 	}
 }
 
+/* large desktops */
 @media (min-width: 1200px)
 {
 	body
 	{
-		background-image: url("../../img/background-crop.jpg");
+		/*background-image: url("../../img/background-mobile.png");*/
+		background-color: blue;
+		/*background-image: url("../../img/background-crop.jpg");*/
 	}
 }
 
