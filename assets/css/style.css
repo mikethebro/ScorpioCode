@@ -14,8 +14,7 @@
 {
 	body
 	{
-		background-color: white;
-		/*background-image: url("../../img/background-mobile.jpg");*/
+		background-image: url("../../img/background-mobile.jpg");
 	}
 }
 
@@ -24,8 +23,7 @@
 {
 	body
 	{
-		background-color: red;
-		/*background-image: url("../../img/background-mobile.jpg");*/
+		background-image: url("../../img/background-mobile.jpg");
 	}
 }
 
@@ -34,8 +32,7 @@
 {
 	body
 	{
-		background-color: green;
-		/*background-image: url("../../img/background-crop.jpg");*/
+		background-image: url("../../img/background-crop.jpg");
 	}
 }
 
@@ -44,9 +41,7 @@
 {
 	body
 	{
-		/*background-image: url("../../img/background-mobile.png");*/
-		background-color: blue;
-		/*background-image: url("../../img/background-crop.jpg");*/
+		background-image: url("../../img/background-crop.jpg");
 	}
 }
 
