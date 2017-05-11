@@ -12,15 +12,31 @@
 body
 {
 	/*background-color: #265B6A;*/
-	background-image: url("../../img/background-crop.jpg");
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
-	/*-webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;*/
+	background-size: cover;
 	/*font-family: algerian;  doesn't work */
 }
+
+@media (min-width: 600px)
+{
+	body
+	{
+		background-image: url("../../img/background-crop.jpg");
+	}
+}
+
+@media (max-width: 600px)
+{
+	body
+	{
+		background-image: url("../../img/background-mobile.png");
+	}
+}
+
 
 ul.newnav
 {
