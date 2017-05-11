@@ -9,6 +9,38 @@
     font-family: "Lobster", Verdana, Tahoma;
 }
 
+@media (max-width: 767px)
+{
+	body
+	{
+		background-image: url("../../img/background-crop.jpg");
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px
+{
+	body
+	{
+		background-image: url("../../img/background-crop.jpg");
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	body
+	{
+		background-image: url("../../img/background-crop.jpg");
+	}
+}
+
+@media (min-width: 1200px)
+{
+	body
+	{
+		background-image: url("../../img/background-crop.jpg");
+	}
+}
+
 body
 {
 	/*background-color: #265B6A;*/
@@ -19,22 +51,6 @@ body
 	-o-background-size: cover;
 	background-size: cover;
 	/*font-family: algerian;  doesn't work */
-}
-
-@media (min-width: @screen-md-min)
-{
-	body
-	{
-		background-image: url("../../img/background-crop.jpg");
-	}
-}
-
-@media (max-width: @screen-sm-max)
-{
-	body
-	{
-		background-image: url("../../img/background-mobile.png");
-	}
 }
 
 
