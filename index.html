@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1">  ensuring proper rendering DOESN'T WORK -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!-- disables zooming DOESN'T WORK -->
-	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Scorpio Code</title>
-</head>
-<body>
-	<div class="background">
-	<header>
-		<!--<nav>
-			<ul>
-			  <li class="navbar"><button class="navbar button1">Home</button></li>
-			  <li class="navbar"><button class="navbar button2">Our Team</button></li>
-			  <li class="navbar"><button class="navbar button3">Our Work</button></li>
-			  <li class="navbar"><button class="navbar button4">Contact</button></li>
-			</ul>
-		</nav>-->
-			<!--<ul>
-			  <li class="link1"><a href="index.html" class="link1">Home</a></li>
-			  <li class="link2"><a href="team.html" class="link2">Our Team</a></li>
-			  <li class="link3"><a href="work.html" class="link3">Our Work</a></li>
-			  <li class="link4"><a href="contact.html" class="link4">Contact</a></li>
-			</ul>-->
-		<h1 class="title redcolor centermain lobsterfont">Scorpio Code</h1>
-	</header>
-	<!--<section>
-		<div class="center">
-			<p class="block1 redcolor">We are a group of freelance developers specializing in website and mobile app development.</p>
-			<p class="block2 redcolor">All employees are currently attending college at schools throughout Utah.</p>
-		</div>
-	</section>-->
-	<footer>
-		<p class="email redcolor">scorpiocodebusiness@gmail.com</p>
-	</footer>
-</div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Mike Ward</title>
+    <!-- normalizing css code -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans" rel="stylesheet">
+    <!-- my css code - comes after to override normalize.css -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Mike Ward</h1>
+        <h2>Bro</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <!-- image 1 -->
+          <li>
+            <a href="img/insta1.jpg">
+              <img src="img/insta1.jpg" alt="">
+              <p>Two Subarus and a schnazzy dude</p>
+            </a>
+          </li>
+          
+          <!-- image 2 -->
+          <li>
+            <a href="img/insta2.jpg">
+              <img src="img/insta2.jpg" alt="">
+              <p>Bear Lake</p>
+            </a>
+          </li>
+          
+          <!-- image 3 -->
+          <li>
+            <a href="img/insta3.jpg">
+              <img src="img/insta3.jpg" alt="">
+              <p>God's promise to us</p>
+            </a>
+          </li>
+          
+          <!-- image 4 -->
+          <li>
+            <a href="img/insta4.jpg">
+              <img src="img/insta4.jpg" alt="">
+              <p>Blue Car Convention</p>
+            </a>
+          </li>
+          
+          <!-- image 5 -->
+          <li>
+            <a href="img/insta5.jpg">
+              <img src="img/insta5.jpg" alt="">
+              <p>Painting or real life?</p>
+            </a>
+          </li>   
+          
+        </ul>
+      </section>
+      <footer>
+        <a href="https://facebook.com/mikethebro"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
+        <a href="https://facebook.com/mikethebro"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
+        <p>&copy; 2017 Mike Ward</p>
+      </footer>
+    </div>
+  </body>
 </html>
+<!-- entities: https://dev.w3.org/html5/html-author/charref -->
