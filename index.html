@@ -14,11 +14,18 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1">  ensuring proper rendering DOESN'T WORK -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!-- disables zooming DOESN'T WORK -->
+  <!-- phones -->
+  <link rel="stylesheet" type="text/css" media="(max-width: 767px)" href="assets/css/mobile-style.css"/>
+  <!-- large phones and tablets -->
+  <link rel="stylesheet" type="text/css" media="(min-width: 768px) and (max-width: 991px)" href="assets/css/mobile-style.css"/>
+  <!-- small desktops -->
+  <link rel="stylesheet" type="text/css" media="(min-width: 992px) and (max-width: 1199px)" href="assets/css/desktop-style.css"/>
+  <!-- large desktops -->
+  <link rel="stylesheet" type="text/css" media="(min-width: 1200px)" href="assets/css/desktop-style.css"/>
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Scorpio Code</title>
 </head>
 <body>
-  <div class="background">
   <header>
     <!--<nav>
       <ul>
@@ -35,7 +42,13 @@
         <li class="link4"><a href="contact.html" class="link4">Contact</a></li>
       </ul>-->
     <h1 class="title redcolor centermain lobsterfont">Scorpio Code</h1>
+
+    <div class="box">
+      <p class="redcolor centertext lobsterfont">We are an independent web development company made up entirely of college students throughout Utah.</p>
+      <p class="redcolor centertext nextext lobsterfont">If you need a website, please contact us at scorpiocodebusiness@gmail.com or (925) 518-2065.</p>
+    </div>
   </header>
+  <div class="background"></div>
   <!--<section>
     <div class="center">
       <p class="block1 redcolor">We are a group of freelance developers specializing in website and mobile app development.</p>
@@ -45,6 +58,5 @@
   <footer>
     <p class="email redcolor">scorpiocodebusiness@gmail.com</p>
   </footer>
-</div>
 </body>
 </html>

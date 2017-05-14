@@ -9,40 +9,18 @@
     font-family: "Lobster", Verdana, Tahoma;
 }
 
-/*small phones*/
-@media (max-width: 767px)
+body
 {
-  body
-  {
-    background-image: url("../../img/background-mobile.jpg");
-  }
+  background-image: url("../../img/background-mobile.jpg");
 }
 
-/*large phones and tablets*/
-@media (min-width: 768px) and (max-width: 991px)
+.background
 {
-  body
-  {
-    background-image: url("../../img/background-mobile.jpg");
-  }
-}
-
-/* small desktops */
-@media (min-width: 992px) and (max-width: 1199px)
-{
-  body
-  {
-    background-image: url("../../img/background-crop.jpg");
-  }
-}
-
-/* large desktops */
-@media (min-width: 1200px)
-{
-  body
-  {
-    background-image: url("../../img/background-crop.jpg");
-  }
+  margin-top: -500px;
+  height: 1000px;
+  position: fixed;
+  width: 100%;
+  
 }
 
 body
@@ -100,6 +78,23 @@ div.center
 div.box
 {
   background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 10px;
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+
+p.centertext
+{
+  font-size: 30px;
+}
+
+p.nextext
+{
+  margin-top: 15%;
 }
 
 .goldcolor
@@ -124,7 +119,7 @@ p.block2
 
 header
 {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   top: 0px;
 }
@@ -325,7 +320,8 @@ img.logo
 
 footer
 {
-  position: fixed;
+  /*position: fixed;*/
+  margin-top: 30%;
   width: 100%;
   bottom: 0px;
   font-size: 24px;
