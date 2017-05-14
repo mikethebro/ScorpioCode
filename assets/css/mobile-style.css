@@ -89,7 +89,7 @@ div.box
 
 p.centertext
 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 p.nextext
@@ -321,7 +321,7 @@ img.logo
 footer
 {
   /*position: fixed;*/
-  margin-top: 30%;
+  /*margin-top: 30%;*/
   width: 100%;
   bottom: 0px;
   font-size: 24px;
