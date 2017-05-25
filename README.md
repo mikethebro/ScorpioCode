@@ -2,16 +2,14 @@
 Website for Scorpio Code
 
 ## Basic Outline
-### Home
-
-Company logo?
-logo
+Single page, buttons and scrolling to move from section to section.
 
 ### Our Team  
-Mike Ward, Project Manager and Co-founder  
-Garen Guerrero, Sales and Co-founder  
-Josh Dawson, Head Developer and Co-founder  
-Josh Roy, Developer and Co-founder  
+Mike Ward 
+Garen Guerrero
+Josh Dawson 
+Chris Merrill 
+Josh Roy 
 
 ### Our Work
 Showcase our work.
