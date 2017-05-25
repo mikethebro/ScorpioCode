@@ -5,14 +5,16 @@ Website for Scorpio Code
 Single page, buttons and scrolling to move from section to section.
 
 ### Our Team  
-Mike Ward 
-Garen Guerrero
-Josh Dawson 
-Chris Merrill 
-Josh Roy 
+Mike Ward  
+Garen Guerrero  
+Josh Dawson  
+Chris Merrill   
+Josh Roy  
 
 ### Our Work
-Showcase our work.
+Project Iris
+mikethebro.com
+Chris Merrill's sites?
 
 ### Contact
 Contact form that will email to scorpiocodebusiness@gmail.com  
