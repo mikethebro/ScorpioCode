@@ -1,7 +1,7 @@
 # Scorpio Code
 Website for Scorpio Code
 
-## Basic Outline
+## Outline
 Single page, buttons and scrolling to move from section to section.
 
 ### Our Team  
@@ -12,9 +12,9 @@ Chris Merrill
 Josh Roy  
 
 ### Our Work
-Project Iris
-mikethebro.com
-Chris Merrill's sites?
+Project Iris  
+mikethebro.com  
+Chris Merrill's sites?  
 
 ### Contact
 Contact form that will email to scorpiocodebusiness@gmail.com  
