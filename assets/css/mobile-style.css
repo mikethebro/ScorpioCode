@@ -1,15 +1,16 @@
-@font-face
-{
-    font-family: "Lobster";
-    src: url("../fonts/lobster.otf") format("truetype");
-}
-
-.lobsterfont
-{
-    font-family: "Lobster", Verdana, Tahoma;
-}
-
 body
 {
-  background-image: url("../../img/background-mobile.jpg");
+	background-image: url("../../img/background-mobile.jpg");
+}
+
+div.box
+{
+	width: 95%;
+  	margin-left: 2.5%;
+  	margin-right: 2.5%;
+}
+
+p.centertext
+{
+  font-size: 25px;
 }

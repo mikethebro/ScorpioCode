@@ -30,7 +30,6 @@ body
   /*font-family: algerian;  doesn't work */
 }
 
-
 ul.newnav
 {
     list-style-type: none;
@@ -39,7 +38,6 @@ ul.newnav
     overflow: hidden;
     background-color: #333;
 }
-
 
 li.newnav
 {
@@ -65,17 +63,26 @@ a.newnav:hover:not(.active)
   background-color:#4CAF50;
 }
 
+
 div.center
 {
   padding-top: 20%;
   text-align: center;
 }
 
+div.box
+{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 10px;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
 p.nextext
 {
   margin-top: 15%;
 }
-
 
 .goldcolor
 {
@@ -86,7 +93,6 @@ p.nextext
 {
   color: #ff0000;
 }
-
 
 p.block1
 {
@@ -103,12 +109,6 @@ header
   /*position: fixed;*/
   width: 100%;
   top: 0px;
-}
-
-
-nav
-{
-  width: 100%;
 }
 
 ul
@@ -131,12 +131,6 @@ li.navbar
   width: 10%;
   text-align: center;
 }
-
-li.button1
-{
-  width: 1%;
-}
-
 
 a.navbar, button.navbar
 {
@@ -169,17 +163,18 @@ li.link1
   width: 100%;
 }
 
+
 a.link1test
 {
   padding-top: 100%;
   padding-left: 11%;
   width: 20%;
   color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #D4A06A;
-    color: #265B6A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #D4A06A;
+  color: #265B6A;
 }
 
 div.link1test
@@ -187,11 +182,11 @@ div.link1test
   padding-left: 11%;
   width: 20%;
   color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #D4A06A;
-    color: #265B6A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #D4A06A;
+  color: #265B6A;
 }
 
 a.link2test
@@ -200,17 +195,17 @@ a.link2test
   padding-left: 33%;
   width: 20%;
   color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #D4A06A;
-    color: #265B6A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #D4A06A;
+  color: #265B6A;
 }
 
 .centermain
 {
-    margin-top: 17%;
-    width: 100%;
+  margin-top: 17%;
+  width: 100%;
 }
 
 div.link2test
@@ -218,12 +213,13 @@ div.link2test
   padding-left: 33%;
   width: 20%;
   color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #D4A06A;
-    color: #265B6A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #D4A06A;
+  color: #265B6A;
 }
+
 
 a.link1
 {
@@ -273,6 +269,7 @@ li a
     color: #265B6A;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 li a:hover
 {
@@ -281,6 +278,7 @@ li a:hover
     color: white;
     /*color: white;*/
 }
+
 
 h1.title
 {
